@@ -119,7 +119,7 @@ body.category-present .c-card__meta *,
 body.category-present .c-card__meta .c-meta__separator,
 body.present .c-navbar [class*="current-menu"],
 body.category-present .c-navbar [class*="current-menu"],
-nav a[href$="/present/"]:hover,
+nav a[href*="present"]:hover,
 .c-meta.present * {
 	color: #52904d;
 }
@@ -136,7 +136,7 @@ body.category-history .c-card__meta *,
 body.category-history .c-card__meta .c-meta__separator,
 body.history .c-navbar [class*="current-menu"],
 body.category-history .c-navbar [class*="current-menu"],
-nav a[href$="/history/"]:hover,
+nav a[href*="history"]:hover,
 .c-meta.history * {
 	color: #86786d;
 }
@@ -153,7 +153,7 @@ body.category-crafts .c-card__meta *,
 body.category-crafts .c-card__meta .c-meta__separator,
 body.crafts .c-navbar [class*="current-menu"],
 body.category-crafts .c-navbar [class*="current-menu"],
-nav a[href$="/crafts/"]:hover,
+nav a[href*="crafts"]:hover,
 .c-meta.crafts * {
 	color: #db0000;
 }
@@ -170,7 +170,7 @@ body.category-catalonian-week .c-card__meta *,
 body.category-catalonian-week .c-card__meta .c-meta__separator,
 body.catalonian-week .c-navbar [class*="current-menu"],
 body.category-catalonian-week .c-navbar [class*="current-menu"],
-nav a[href$="/catalonian-week/"]:hover,
+nav a[href*="catalonian-week"]:hover,
 .c-meta.catalonian-week * {
 	color: #213a96;
 }
@@ -278,4 +278,8 @@ footer .u-container-width {
 	.c-branding--mobile .c-logo {
 		margin-right: 5px;
 	}
+}
+
+html {
+	opacity: 1 !important;
 }
