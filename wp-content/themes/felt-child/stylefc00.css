@@ -283,3 +283,7 @@ footer .u-container-width {
 html {
 	opacity: 1 !important;
 }
+
+.custom-logo-link img {
+  height: 300px;
+}
